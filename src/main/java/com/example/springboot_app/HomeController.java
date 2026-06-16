@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Webhook Test Successful In Local!";
+        return "Webhook Test Successful!";
     }
 
     @GetMapping("/health")
