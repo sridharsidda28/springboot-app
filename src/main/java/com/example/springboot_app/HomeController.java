@@ -8,7 +8,7 @@ public class HomeController {
 
     @GetMapping("/")
     public String home() {
-        return "Hello from Jenkins + SonarQube + Docker!";
+        return "Webhook Test Successful!";!";
     }
 
     @GetMapping("/health")
